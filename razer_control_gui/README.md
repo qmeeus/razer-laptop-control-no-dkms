@@ -12,10 +12,12 @@
 ### Compiling from source
 
 1. Install cargo or rustc
-2. add `libdbus-1-dev libusb-dev libhidapi-dev libhidapi-hidraw0 pkg-config libudev-dev libgtk-3-dev` packages (or equivelent)
+2. add `libdbus-1-dev libusb-dev libhidapi-dev libhidapi-hidraw0 pkg-config libudev-dev libgtk-3-dev` packages (or equivalent)
 3. run `./install.sh install` as a normal user
 4. reboot
 5. Enjoy!
+
+NB: Fedora 44 equivalent: `systemd-devel gtk3-devel pkgconf hidapi hidapi-devel libusb1-devel dbus-devel`
 
 ### Nixos flake installation
 
